@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
+
+
+.oval1 {
+      width: 87px;
+      height: 47px;
+      border-radius: 86px / 45px;
+      background: lightblue;
+      border: solid 1px blue;
+      transform:rotate(-20deg) ;
+      position: absolute;
+      top: 178px;
+      left: 236px;
+    }
+
+.rec1{
+	width: 80px;
+ 	height: 70px;
+	background: lightblue;
+	position: absolute;
+	top: 200px;
+	left: 240px;
+
+}
+
+
+.Egg1 {
+      display: block;
+      width: 126px;
+      height: 180px;
+      background-color: lightblue;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      position: absolute;
+      top:220px;
+      left: 217px;
+    }
+.circle1{
+      position: absolute;
+      top:300px;
+      left: 344px;   
+      width: 50px;
+      height: 50px;
+      background: lightgoldenrodyellow;
+      border-radius: 50%;
+      box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+.circle2{
+      position: absolute;
+      top:299px;
+      left: 371px;   
+      width: 50px;
+      height: 50px;
+      background:#EEE8AA;
+      border-radius: 50%;
+      box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+.circle3{
+      position: absolute;
+      top:274px;
+      left: 356px;   
+      width: 50px;
+      height: 50px;
+      background: #FFFACD;
+      border-radius: 50%;
+      box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+.circle4{
+      position: absolute;
+      top:286px;
+      left: 390px;   
+      width: 50px;
+      height: 50px;
+      background: #FFFFF0;
+      border-radius: 50%;
+       box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+.circle5{
+      position: absolute;
+      top:295px;
+      left: 402px;   
+      width: 50px;
+      height: 50px;
+      background: lightgoldenrodyellow;
+      border-radius: 50%;
+       box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+.circle6{
+      position: absolute;
+      top:266px;
+      left: 389px;   
+      width: 50px;
+      height: 50px;
+      background: #FFFAF0;
+      border-radius: 50%;
+       box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+.circle7{
+      position: absolute;
+      top:271px;
+      left: 321px;   
+      width: 50px;
+      height: 50px;
+      background: #EEE8AA;
+      border-radius: 50%;
+      box-shadow: 1px 1px 1px 1px rgba(189,183,107,.5)
+}
+
+
+.rec2{
+      width: 41px;
+      height: 70px;
+      background: #FFFACD;
+      position: absolute;
+      top: 287px;
+      left: 368px;
+
+}
+
+.rec3{
+      width: 87px;
+      height: 10px;
+      background: lightblue;
+      position: absolute;
+      top: 356px;
+      left: 345px;
+
+}
+.rec4{
+      width: 890px;
+      height: 180px;
+      background: #CDAA7D;
+      position: absolute;
+      bottom: 0px;
+      
+
+}
+
+.oval2 {
+      width: 87px;
+      height: 28px;
+      border-radius: 100px / 35px;
+      background: lightblue;
+      position: absolute;
+      top: 343px;
+      left: 345px;
+    }
+
+.oval3 {
+      width: 87px;
+      height: 28px;
+      border-radius: 100px / 35px;
+      background: lightblue;
+      position: absolute;
+      top: 350px;
+      left: 345px;
+    }
+.oval4{
+      width: 13px;
+      height: 21px;
+      border-radius: 62px / 120px;
+      background: radial-gradient(circle at top left,red,orange);
+      position: absolute;
+      top: 350px;
+      left: 380px;
+      filter: blur(2px);
+      animation-name: fire;
+      animation-duration: 4s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+
+}
+
+@keyframes fire{
+      from{
+            top:280px;
+
+      }
+      to{
+            top:252px;
+
+      }
+}
+
