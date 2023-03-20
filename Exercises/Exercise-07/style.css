@@ -1,0 +1,540 @@
+body {
+	background: darkblue;
+}
+
+.circle1{
+	position: absolute;
+	top:200px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: lightpink;
+	border-radius: 50%;
+	animation-name: circle1;
+      animation-duration: 6s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle2{
+	position: absolute;
+	top:200px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: lightpink;
+	border-radius: 50%;
+	animation-name: circle2;
+      animation-duration: 5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+
+.circle3{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: lightpink;
+	border-radius: 50%;
+	animation-name: circle3;
+      animation-duration: 4s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle4{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: Seashell;
+	border-radius: 50%;
+	animation-name: circle4;
+      animation-duration: 4s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle5{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: hotpink;
+	border-radius: 50%;
+	animation-name: circle5;
+      animation-duration: 5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle6{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: deeppink;
+	border-radius: 50%;
+	animation-name: circle6;
+      animation-duration: 6s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle7{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 50%;
+	animation-name: circle7;
+      animation-duration: 4s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle8{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: lightpink;
+	border-radius: 50%;
+	animation-name: circle8;
+      animation-duration: 5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle9{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 50%;
+	animation-name: circle9;
+      animation-duration: 3.8s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle10{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: hotpink;
+	border-radius: 50%;
+	animation-name: circle10;
+      animation-duration: 5.3s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle11{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: deeppink;
+	border-radius: 50%;
+	animation-name: circle11;
+      animation-duration: 4.3s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle12{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: hotpink;
+	border-radius: 50%;
+	animation-name: circle12;
+      animation-duration: 4.1s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle13{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: deeppink;
+	border-radius: 50%;
+	animation-name: circle13;
+      animation-duration: 4.5s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.circle14{
+	position: absolute;
+	top:300px;
+	left:500px;
+	width: 40px;
+	height: 40px;
+	background: Seashell;
+	border-radius: 50%;
+	animation-name: circle14;
+      animation-duration: 4.2s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      animation-play-state: running;
+}
+.final{
+	position: absolute;
+	top: 270px;
+	left: 600px;
+	width: 200px;
+	height: 200px;
+	background: lightsalmon;
+	border-radius: 50%;
+}
+
+@keyframes circle1{
+	0%{
+		left: 0px;
+		top:200px;
+		width: 60px;
+		height: 60px;
+		background: lightpink;
+
+	}
+	50%{
+		left: 700px;
+		top:300px;
+		width: 40px;
+		height: 40px;
+		background: hotpink;
+	}
+	100%{
+		left:1420px;
+		top:370px;
+		width: 60px;
+		height: 60px;
+		background: lightpink;
+	}
+}
+@keyframes circle2{
+	0%{
+		left: 0px;
+		top:250px;
+		width: 60px;
+		height: 60px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+		
+	}
+	100%{
+		left:1420px;
+		top:250px;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@keyframes circle3{
+	0%{
+		left: 0px;
+		top:250px;
+		width: 60px;
+		height: 60px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:250px;
+		width: 60px;
+		height: 60px;
+	}
+}
+@keyframes circle4{
+	0%{
+		left: 0px;
+		top:300px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:450px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle5{
+	0%{
+		left: 0px;
+		top:500px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:450px;
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@keyframes circle6{
+	0%{
+		left: 0px;
+		top:150px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:150px;
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@keyframes circle7{
+	0%{
+		left: 0px;
+		top:210px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:300px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle8{
+	0%{
+		left: 0px;
+		top:250px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:250px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle9{
+	0%{
+		left: 0px;
+		top:240px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:420px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle10{
+	0%{
+		left: 0px;
+		top:550px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:550px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle11{
+	0%{
+		left: 0px;
+		top:330px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:330px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle12{
+	0%{
+		left: 0px;
+		top:370px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:390px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle13{
+	0%{
+		left: 0px;
+		top:300px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:450px;
+		width: 80px;
+		height: 80px;
+	}
+}
+@keyframes circle14{
+	0%{
+		left: 0px;
+		top:360px;
+		width: 80px;
+		height: 80px;
+
+	}
+	50%{
+		left: 700px;
+		top:350px;
+		width: 40px;
+		height: 40px;
+	}
+	100%{
+		left:1420px;
+		top:360px;
+		width: 80px;
+		height: 80px;
+	}
+}
