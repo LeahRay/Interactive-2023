@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.calendar {
+  display: inline-block;
+  background-color: white;
+  padding: 1em;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.month-year {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.days-of-week, .date-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  padding: 0 100px;
+}
+
+.days-of-week div, .date-grid div {
+  flex-basis: calc(100% / 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5em;
+  box-sizing: border-box;
+}
+
+.date-grid div {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin: 1px;
+}
